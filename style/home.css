@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cinza-escuro: #D1D1D1;
+    --cor-do-popup: #CDA130;
+    --cor-texto-popup:#FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.popup{
+    background-color: var(--cor-do-popup) ;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    font-size: 23px;
+    color: var(--cor-texto-popup);
+}
+.aqui{
+    font-weight: 700;
+}
+.header_rodini {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.esquerda_header {
+    display: flex;
+    margin-left: 52px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parte_um_telefone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.imagem_central_header {
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.itens_header {
+    display: flex;
+    margin-left: 32em;
+    justify-content: space-between;
+    gap: 2em;
+}
+/* inicio lista  */
+
+
+/* fim da lista */
+.icon {
+    height: 25.968px;
+}
+
+h1 {
+    width: 7em;
+}
+
+.logo_ridini {
+    width: 140px;
+    height: 66px;
+}
+
+.imagem_endereço {
+    width: 26px;
+    height: 27px;
+}
+
+.imagem_fone {
+    width: 20.417px;
+    height: 26.25px;
+}
+
+.header_seleção_itens {
+    background-color: var(--cinza-escuro);
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.itens_seleção{
+    font-size: 23px;
+    font-family: 'Inter';
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+.Vector{
+    width: 20px;
+    height: 10.887px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itens_seleção_separação{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+/* body  */
+/* destaque  */
+.destaque_home{
+    display: flex;
+    flex-direction: row;
+
+}
+.destaque_img{
+    width: 395.8px;
+    height: 697.26px;
+    
+}
+/* explorar */
+.explorar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagens_explorar_class{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+    margin-right: 314px;
+    margin-left: 291px;
+}
+.imagens_explorar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.imagens_explorar_resolução{
+
+width: 235px;
+height: 157px;
+}
+.titulo_explorar{
+color: #414141;
+font-family: Cormorant Garamond;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+text-align: center;
+padding: 1em;
+}
+/* parte abaixo do carrosel  0*/
+.rodini_história{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 41%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 257px;
+    height: 121px;
+}
+.conteudo_destaque{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo_destaques{
+color: #000;
+font-family: 'Cormorant Garamond';
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 80px;
+margin-bottom: 30px;
+text-align: center;
+}
+.texto_destaques{
+color: #000;
+font-family: Cormorant Garamond;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1330px;
+
+}
+.final_text_home{
+color: #000;
+font-family: Cormorant Garamond;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1330px;
+margin-bottom: 12em;
+}
